@@ -26,7 +26,6 @@ function openProject() {
 
     const url = packageJSON?.repository?.url.replace('git+', '');
     if (url) {
-      // vscode.window.showInformationMessage(`open project: ${url}`);
       vscode.env.openExternal(url);
       return;
     }
