@@ -32,5 +32,3 @@ function openProject() {
   }
   vscode.window.showInformationMessage(`repository.url is not found in package.json`);
 }
-
-export function deactivate() {}
